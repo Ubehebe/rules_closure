@@ -21,12 +21,12 @@ closure_js_library(
     srcs = ["incremental-dom-closure.js"],
     language = "ECMASCRIPT_2017",
     suppress = [
-        "JSC_CONSTANT_WITHOUT_EXPLICIT_TYPE",
         "JSC_IMPLICITLY_NULLABLE_JSDOC",
         "JSC_NTI_COULD_NOT_INFER_CONST_TYPE",
         "JSC_NTI_INEXISTENT_PROPERTY",
         "JSC_NTI_INVALID_ARGUMENT_TYPE",
         "JSC_NTI_UNKNOWN_EXPR_TYPE",
+        "JSC_STRICT_INEXISTENT_PROPERTY",
         "JSC_TYPE_MISMATCH",
         "JSC_UNKNOWN_EXPR_TYPE",
     ],

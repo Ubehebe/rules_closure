@@ -41,8 +41,6 @@ final class Diagnostics {
         CheckStrictDeps.DUPLICATE_PROVIDES,
         CheckStrictDeps.REDECLARED_PROVIDES,
         CheckStrictDeps.NOT_PROVIDED);
-    DiagnosticGroups.registerGroup("constantWithoutExplicitType",
-        ConvertToTypedInterface.CONSTANT_WITHOUT_EXPLICIT_TYPE);
   }
 
   static final DiagnosticGroups GROUPS = new DiagnosticGroups();

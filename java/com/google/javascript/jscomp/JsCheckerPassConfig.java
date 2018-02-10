@@ -18,6 +18,7 @@ package com.google.javascript.jscomp;
 
 import com.google.common.collect.ImmutableList;
 import com.google.javascript.jscomp.NodeTraversal.Callback;
+import com.google.javascript.jscomp.ijs.ConvertToTypedInterface;
 import com.google.javascript.jscomp.lint.CheckDuplicateCase;
 import com.google.javascript.jscomp.lint.CheckEmptyStatements;
 import com.google.javascript.jscomp.lint.CheckEnums;
@@ -30,6 +31,7 @@ import com.google.javascript.jscomp.lint.CheckRequiresAndProvidesSorted;
 import com.google.javascript.jscomp.lint.CheckUnusedLabels;
 import com.google.javascript.jscomp.lint.CheckUselessBlocks;
 import com.google.javascript.jscomp.parsing.parser.FeatureSet;
+
 import java.util.List;
 
 final class JsCheckerPassConfig extends PassConfig.PassConfigDelegate {
